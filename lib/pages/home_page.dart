@@ -36,6 +36,7 @@ class _HomePageState extends State<HomePage> {
           ),
           MinhaBrejaFormField(
             controller: controller.intputValue269,
+            cursorColor: Colors.white,
             color: Colors.blue,
             icon: Icons.abc,
             text: '269 ml',

@@ -12,6 +12,7 @@ class MinhaBrejaFormField extends StatelessWidget {
     this.iconColor,
     this.iconSize,
     this.controller,
+    this.cursorColor,
   });
 
   IconData? icon;
@@ -20,6 +21,7 @@ class MinhaBrejaFormField extends StatelessWidget {
   Color? color;
   Color? textColor;
   Color? iconColor;
+  Color? cursorColor;
   double? fontSize;
   TextEditingController? controller;
 
@@ -66,6 +68,7 @@ class MinhaBrejaFormField extends StatelessWidget {
               width: 70,
               child: TextFormField(
                 controller: controller,
+                cursorColor: cursorColor,
                 keyboardType: TextInputType.number,
                 style: TextStyle(
                   color: textColor,
