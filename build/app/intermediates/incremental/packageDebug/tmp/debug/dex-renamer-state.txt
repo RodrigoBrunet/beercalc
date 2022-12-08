@@ -1,4 +1,0 @@
-#Tue Dec 06 18:19:06 BRT 2022
-base.0=/home/rodrigo/Documentos/projetos/minhabreja/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
