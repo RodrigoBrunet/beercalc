@@ -23,12 +23,13 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+  
+  fonts:
+    - family:  MinhaBreja
+      fonts:
+        - asset: assets/fonts/MinhaBreja.ttf
 
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+   
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

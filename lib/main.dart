@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:minhabreja/constants/constant_colors.dart';
 import 'package:minhabreja/pages/home_page.dart';
 
 void main() {
@@ -14,7 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(primaryColor: AppColor.yellow),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       home: const HomePage(),
     );
   }

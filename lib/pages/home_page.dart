@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:minhabreja/components/minhabreja_textformfield.dart';
+import 'package:minhabreja/constants/constant_colors.dart';
 import 'package:minhabreja/controllers/home_controller.dart';
 
 class HomePage extends StatefulWidget {
@@ -37,7 +38,7 @@ class _HomePageState extends State<HomePage> {
           MinhaBrejaFormField(
             controller: controller.intputValue269,
             cursorColor: Colors.white,
-            color: Colors.blue,
+            color: AppColor.yellow,
             icon: Icons.abc,
             text: '269 ml',
             iconColor: Colors.green,
